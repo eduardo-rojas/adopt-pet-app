@@ -1,0 +1,26 @@
+{
+  "name": "adopt-pet-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{js, html}\" --write",
+    "lint": "eslint \"src/**/*.{js, jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos-edhr/adopt-pet-app.git"
+  },
+  "author": "Carlos Hoyos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlos-edhr/adopt-pet-app/issues"
+  },
+  "homepage": "https://github.com/carlos-edhr/adopt-pet-app#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "prettier": "^1.19.1"
+  }
+}
